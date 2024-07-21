@@ -1,4 +1,5 @@
 
+/*Section 1 Styling Starts - Common For All the HTML Pages*/
 .Section1{
     /* border :solid rgb(189, 27, 27); */
     /* background-color:#ed79b9; */
@@ -11,50 +12,37 @@
     padding: 20px;
 }
 
-    .top-bar{
-      /* border:solid blue; */
-      display:flex;
-      color: #ffffff;
-      justify-content: space-around;
-      justify-items: center;
-      z-index:-.5;
-      font-size: 18px;
-    }
-
-  .hide {
-    display: none;
-  }
-    
-  .mrg-b:hover + .hide {
-    display: block;
-    color:red;
-
-  }
-  .logo {
-        display: block;
-        overflow: hidden;
-        width: 150px;
-        height: 100px;
-        /* padding: 20px; */
-        text-indent: -999999px;
-        background: url(https://marketplace.canva.com/EAFpeiTrl4c/1/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-9Gfim1S8fHg.jpg) 0 0 no-repeat;
-        background-size: 100% 100%;
-        /* border:solid green; */
-        border-radius: 90%;
-        justify-content: center;
-        transition: width 1s, height 2s, transform 2s;
-        /* transition-timing-function: linear; */
-        transform: rotateY(70deg);
-        transform-style: preserve-3d;
-        transform-origin: 20% 40%;
-        position: relative;
-        /* z-index: -1; */
-  
+.top-bar{
+    /* border:solid blue; */
+    display:flex;
+    color: #ffffff;
+    justify-content: space-around;
+    justify-items: center;
+    z-index:-.5;
+    font-size: 18px;
 }
-
+.logo {
+    display: block;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+    /* padding: 20px; */
+    text-indent: -999999px;
+    background: url(https://marketplace.canva.com/EAFpeiTrl4c/1/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-9Gfim1S8fHg.jpg) 0 0 no-repeat;
+    background-size: 100% 100%;
+    /* border:solid green; */
+    border-radius: 90%;
+    justify-content: center;
+    transition: width 1s, height 2s, transform 2s;
+    /* transition-timing-function: linear; */
+    transform: rotateY(70deg);
+    transform-style: preserve-3d;
+    transform-origin: 20% 40%;
+    position: relative;
+    /* z-index: -1; */
+}
   .logo:hover {
     width: 500px;
-
   }
 
   .NavBar {
@@ -105,6 +93,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/*Section1 Styling Ends- Common For All the HTML Pages*/
+
+/* Index HTML Styling Starts */ 
 
 /* Carousel Image Section Starts */
 .carousel-item{
@@ -171,12 +163,12 @@ h2.widget-title {
 }
 
 .center-block {
+ /* border:solid rgb(185, 34, 34); */
   display:flex;
   justify-content:space-evenly;
   padding: 35px;
   color: #666;
   background: #f9ecc6;
-  /* border:solid rgb(185, 34, 34); */
 }
 
 /* 
@@ -193,12 +185,207 @@ h2.widget-title {
 
 .col-md-3{
   border:solid green;
-} */
+} 
 
-/* .table{
+ .table{
   background-color: #8e8c91;
   border: #890f40;
   padding:10px;
 } */
+/* Footer Section Ends */
+/* Index HTML Styling Ends */
 
-/* Footer Section starts */
+
+/* Menu HTML Styling Starts */
+
+.menusection{
+  /* border:solid green; */
+  /* height:500px; */
+ background-color: rgb(14, 2, 16);
+  background-size: cover;
+  background-position: center bottom;
+  margin: 0;
+}
+
+.menutitle{
+  border: solid #000000;
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(235, 31, 4);
+  font-family:'Spirax', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.MenuContainer{
+  /* border: solid red; */
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  background-color: silver;  
+}
+
+.MenuList {
+  border-radius: 10px;
+  font-size:22px;
+  /* border: solid rgb(154, 23, 23); */
+  margin: 20px;
+  width: 300px;
+  height:230px;
+  padding: 12px;
+  justify-content: space-around;
+  background-color: rgb(22, 19, 19);
+  color: white;
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+/* .a{
+   text-decoration: none;
+} */
+#menu_a:hover {
+  color: white;
+  background-color: goldenrod;
+}
+#menu_b:hover {
+  color: peru;
+  background-color:rgb(40, 112, 78);
+}
+#menu_c:hover {
+  background-color: goldenrod;
+}
+#menu_d:hover {
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+#menu_e:hover {
+  color: white;
+  background-color: purple;
+}
+#menu_f:hover {
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+#menu_g:hover {
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+#menu_h:hover {
+  color: white;
+  background-color: purple;
+}
+#menu_i:hover {
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+#menu_j:hover {
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+#menu_k:hover {
+  color: white;
+  background-color: goldenrod;
+}
+#menu_l:hover {
+  color: white;
+  background-color: purple;
+}
+
+.bizPic {
+  /* margin: 1em; */
+  /* border-radius: 50%; */
+  height: 150px;
+  width: 250px;
+  border: solid white;
+}
+
+
+/* Gallery HTML STyling Starts */
+
+.gallerysection{
+  border:solid black;
+  /* height:50vh; */
+}
+
+.GalleryContainer{
+  padding:20px;
+  /* border: solid red; */
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  background-color: silver;  
+}
+
+.GalPic {
+  margin: 1em; 
+  /* border-radius: 50%; */
+  height: 250px;
+  width: 250px;
+  border: solid white;
+  transition: 1s;
+}
+
+.GalPic:hover {
+  box-shadow: 10px 10px;
+  background-color: #000000;
+}
+
+
+
+/* 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center; */
+
+
+/* Gallery HTML STyling Ends */
+
+
+/* ContactUS HTML Styling Starts */
+
+.ContactSection{
+  /* Border:solid blue; */
+  background-color: silver;
+  display:flex;
+  justify-content: space-around;
+}
+
+.sectioncontainer{
+  /* border:solid green; */
+  background-color: #d1bdbd;
+  height:50vh;
+  width:60vw;
+  background: url(https://i.gifer.com/76YS.gif) 0,0,no-repeat;
+  /* border: 2px solid black; */
+  justify-content: space-around;
+  align-items: center;
+  display:flex;
+  color:rgb(248, 242, 242);
+  font-size: 20px;
+
+}
+
+/* ContactUS HTML Styling Ends */
