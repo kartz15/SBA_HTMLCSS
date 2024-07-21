@@ -1,0 +1,204 @@
+
+.Section1{
+    /* border :solid rgb(189, 27, 27); */
+    /* background-color:#ed79b9; */
+    background: url(https://www.locandaottoemezzo.org.uk/wp-content/uploads/2014/05/screen-shot-2014-10-19-at-15.34.51.png) 0 0 no-repeat;
+    height:300px;
+    background-size: cover;
+    /* background-position: 10% 70%; */
+    background-position: center bottom;
+    margin: 0;
+    padding: 20px;
+}
+
+    .top-bar{
+      /* border:solid blue; */
+      display:flex;
+      color: #ffffff;
+      justify-content: space-around;
+      justify-items: center;
+      z-index:-.5;
+      font-size: 18px;
+    }
+
+  .hide {
+    display: none;
+  }
+    
+  .mrg-b:hover + .hide {
+    display: block;
+    color:red;
+
+  }
+  .logo {
+        display: block;
+        overflow: hidden;
+        width: 150px;
+        height: 100px;
+        /* padding: 20px; */
+        text-indent: -999999px;
+        background: url(https://marketplace.canva.com/EAFpeiTrl4c/1/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-9Gfim1S8fHg.jpg) 0 0 no-repeat;
+        background-size: 100% 100%;
+        /* border:solid green; */
+        border-radius: 90%;
+        justify-content: center;
+        transition: width 1s, height 2s, transform 2s;
+        /* transition-timing-function: linear; */
+        transform: rotateY(70deg);
+        transform-style: preserve-3d;
+        transform-origin: 20% 40%;
+        position: relative;
+        /* z-index: -1; */
+  
+}
+
+  .logo:hover {
+    width: 500px;
+
+  }
+
+  .NavBar {
+    background: url(https://i.gifer.com/76YS.gif) 0,0,no-repeat;
+    /* background: url(https://t3.ftcdn.net/jpg/02/05/87/60/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg) no-repeat; */
+    border: 2px solid black;
+  }
+  
+  .transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    height:50px;
+
+  }
+  
+  .transbox ul {
+    margin:.2px;
+    font-weight: bold;
+    color: #000000;
+    display:flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+  }
+
+  .transclass {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #b82020; */
+    justify-content: center;
+  }
+
+  .active {
+    background-color: #07140d;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #131a0c;
+  }
+
+li a {
+  display: block;
+  color: rgb(193, 30, 30);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Carousel Image Section Starts */
+.carousel-item{
+  width:100%;
+  height:70vh;
+  /* border:solid rgb(174, 43, 43); */
+  margin-top: .2px;
+  padding:10x;
+}
+/* Carousel Image Section Ends */
+
+/* About Section Starts */
+.aboutsec{
+  /* border:solid blue; */
+  background-color: #07140d;
+  height:600px;
+}
+.aboutTitle{
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 100;
+  color: aliceblue;
+  font-family:'Spirax', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutText{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  word-wrap: wrap;
+  color: aliceblue;
+  padding:50px;
+  margin-left:100px;
+  border-left: 6px solid rgb(216, 96, 53);
+}
+/* About Section Starts */
+
+/* Footer Section starts */
+.widget-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+h2.widget-title {
+  font-size: 16px;
+  margin-top: 0;
+  color: #666;
+  margin-bottom: 25px;
+}
+.widget-content {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+.timing-box {
+  border: 4px solid #8e8c91;
+}
+
+.timing-box .table > tbody > tr > td {
+  font-size: 13px;
+  background: #f9ecc6;
+}
+
+.center-block {
+  display:flex;
+  justify-content:space-evenly;
+  padding: 35px;
+  color: #666;
+  background: #f9ecc6;
+  /* border:solid rgb(185, 34, 34); */
+}
+
+/* 
+.col-md-0{
+  border:solid green;
+}
+.col-md-1{
+  border:solid green;
+}
+
+.col-md-2{
+  border:solid green;
+}
+
+.col-md-3{
+  border:solid green;
+} */
+
+/* .table{
+  background-color: #8e8c91;
+  border: #890f40;
+  padding:10px;
+} */
+
+/* Footer Section starts */
