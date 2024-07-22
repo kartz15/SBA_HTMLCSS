@@ -9,7 +9,6 @@
     margin: 0;
     padding: 5px;
 }
-
 .top-bar{
     /* border:solid blue; */
     display:flex;
@@ -33,7 +32,6 @@
 {
     margin-right:auto;
 }
-
 .Link_text{
   text-decoration: none;
   color: #e01515;
@@ -41,7 +39,6 @@
   font-size:small;
   font-weight: bold;
 }
-
 .logo {
    /* border:solid green; */
     display: block;
@@ -59,24 +56,21 @@
     transform-origin: 20% 40%;
     position: relative;
     /* z-index: -1; */
-}
+  }
   .logo:hover {
     width: 300px;
   }
-
   .NavBar {
     background: url(https://i.gifer.com/76YS.gif) 0,0,no-repeat;
     border: 2px solid black;
   }
-  
   .transbox {
     margin: 30px;
-    background-color: #ffffff;
+     background-color: #ffffff; 
     border: 1px solid black;
     opacity: 0.6;
     height:50px;
   }
-  
   .transbox ul {
     margin:.2px;
     font-weight: bold;
@@ -85,7 +79,6 @@
     font-size: 25px;
     justify-content: space-evenly;
   }
-
   .transclass {
     list-style-type: none;
     margin: 0;
@@ -94,15 +87,12 @@
     /* background-color: #b82020; */
     justify-content: center;
   }
-
   .active {
     background-color: #07140d;
   }
-
   li a:hover:not(.active) {
     background-color: #131a0c;
   }
-
   li a {
     display: block;
     color:red;
@@ -111,11 +101,8 @@
     text-decoration: none;
     font-style: italic;
   }
-
 /*Section1 Styling Ends- Common For All the HTML Pages*/
-
 /* Index HTML Styling Starts */ 
-
 /* Carousel Image Section Starts */
 .carousel-item{
   width:100%;
@@ -124,7 +111,6 @@
   margin-top: .2px;
   padding:10x;
 }
-
 /* Carousel Image Section Ends */
 
 /* About Section Starts */
@@ -151,13 +137,9 @@
   border-left: 6px solid rgb(216, 96, 53);
 }
 /* About Section Starts */
-
 /* Footer Section starts */
 /* .foot0 , .foot1,.foot2 ,.foot3 {
-  border:solid green;
-}
-*/
-
+  border:solid green;}*/
 .footer_title {
   font-size: 15px;
   text-transform: uppercase;
@@ -165,23 +147,19 @@
   text-decoration: none;
   font-style: italic;
 }
-
 .footer_content {
   font-size: 12px;
   color: #666;
   font-weight: 600;
   font-style: italic;
 }
-
 .timing_box {
   border: 4px solid #8e8c91;
 }
-
 .timing_box .table_footer > tbody > tr > td {
   font-size: 12px;
   background: #f9ecc6;
 }
-
 .center_block {
  /* border:solid rgb(185, 34, 34); */
   display:flex;
@@ -195,15 +173,9 @@
   margin: 0;
   padding: 20px; */
 }
-
 /* Footer Section Ends */
-
-
 /* Index HTML Styling Ends */
-
-
 /* Menu HTML Styling Starts */
-
 .menusection{
   /* border:solid green; */
   /* height:500px; */
@@ -212,7 +184,6 @@
   background-position: center bottom;
   margin: 0;
 }
-
 .menutitle{
   border: solid #000000;
   text-align: center;
@@ -222,7 +193,6 @@
   color: rgb(235, 31, 4);
   font-family:'Spirax', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .MenuContainer{
   /* border: solid red; */
   border-width: 0.2px;
@@ -239,7 +209,6 @@
   width: 250px;
   border: solid white;
 }
-
 .MenuList {
   border-radius: 10px;
   font-size:22px;
@@ -335,68 +304,25 @@
   border: #e01515;
   padding:10px;
 }
-/* .List_i_content {
-  display: none;
-  position: absolute;
-  background-color: #b3b7a7;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border: #e01515;
-  padding:10px;
-}
-.List_j_content {
-  display: none;
-  position: absolute;
-  background-color: #b3b7a7;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border: #e01515;
-  padding:10px;
-}
-.List_k_content {
-  display: none;
-  position: absolute;
-  background-color: #b3b7a7;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border: #e01515;
-  padding:10px;
-}
-.List_l_content {
-  display: none;
-  position: absolute;
-  background-color: #b3b7a7;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border: #e01515;
-  padding:10px;
-} */
 .menu_cat_title {
   padding: 20px;
   text-align: center; 
   background-color:#eef0ec ;
   color: #e01515;
 }
-
-  .menu_ul_title{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* background-color: #b82020; */
-    justify-content: center;
-  }
-
+.menu_ul_title{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #b82020; */
+  justify-content: center;
+}
 #menu_a:hover  + .List_a_content {
   display: block;
   color: white;
   background-color: goldenrod;
 }
-
 #menu_b:hover  + .List_b_content {
   display: block;
   color: white;
@@ -407,71 +333,37 @@
   color: white;
   background-color:rgb(40, 112, 78);
 }
-
 #menu_d:hover  + .List_d_content {
   display: block;
   color: white;
   background-color:rgb(40, 112, 78);
 }
-
 #menu_e:hover  + .List_e_content {
   display: block;
   color: white;
   background-color: purple;
 }
-
 #menu_f:hover  + .List_f_content {
   display: block;
   color: white;
   background-color:purple;
 }
-
 #menu_g:hover  + .List_g_content {
   display: block;
   color: white;
   background-color:rgb(40, 112, 78);
 }
-
 #menu_h:hover  + .List_h_content {
   display: block;
   color: white;
   background-color: purple;
 }
-/*
-#menu_i:hover  + .List_i_content {
-  display: block;
-  color: white;
-  background-color:rgb(40, 112, 78);
-}
-
-#menu_j:hover  + .List_j_content {
-  display: block;
-  color: white;
-  background-color:rgb(40, 112, 78);
-}
-
-#menu_k:hover  + .List_k_content {
-  display: block;
-  color: white;
-  background-color: goldenrod;
-}
-#menu_l:hover  + .List_l_content {
-  display: block;
-  color: white;
-  background-color: purple;
-} */
-
-
 /* Menu HTML Styling Ends */
-
-
 /* Gallery HTML STyling Starts */
-
 .gallerysection{
   border:solid black;
   /* height:50vh; */
 }
-
 .GalleryContainer{
   padding:20px;
   /* border: solid red; */
@@ -482,7 +374,6 @@
   justify-content: space-evenly;
   background-color: silver;  
 }
-
 .GalPic {
   margin: 1em; 
   /* border-radius: 50%; */
@@ -491,24 +382,18 @@
   border: solid white;
   transition: 1s;
 }
-
 .GalPic:hover {
   box-shadow: 10px 10px;
   background-color: #000000;
 }
-
 /* Gallery HTML STyling Ends */
-
-
 /* ContactUS HTML Styling Starts */
-
 .ContactSection{
   /* Border:solid blue; */
   background-color: silver;
   display:flex;
   justify-content: space-around;
 }
-
 .sectioncontainer{
   /* border:solid green; */
   background-color: #d1bdbd;
@@ -521,7 +406,5 @@
   display:flex;
   color:rgb(248, 242, 242);
   font-size: 20px;
-
 }
-
 /* ContactUS HTML Styling Ends */
