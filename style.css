@@ -21,6 +21,13 @@
     z-index:-.5;
     font-size: 18px;
 }
+
+.Link_text{
+  text-decoration: none;
+  color: #e01515;
+  text-transform: uppercase;
+}
+
 .logo {
     display: block;
     overflow: hidden;
@@ -28,7 +35,7 @@
     height: 100px;
     /* padding: 20px; */
     text-indent: -999999px;
-    background: url(https://marketplace.canva.com/EAFpeiTrl4c/1/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-9Gfim1S8fHg.jpg) 0 0 no-repeat;
+    background: url(https://i.pinimg.com/originals/2e/1b/94/2e1b942a8f3b1de65fbaf96a1105824d.jpg) 0 0 no-repeat;
     background-size: 100% 100%;
     /* border:solid green; */
     border-radius: 90%;
@@ -135,34 +142,31 @@ li a {
 /* About Section Starts */
 
 /* Footer Section starts */
-.widget-title {
-  font-size: 16px;
+.footer_title {
+  font-size: 20px;
   text-transform: uppercase;
   color: #666;
+  text-decoration: none;
+  font-style: italic;
 }
 
-h2.widget-title {
-  font-size: 16px;
-  margin-top: 0;
-  color: #666;
-  margin-bottom: 25px;
-}
-.widget-content {
+.footer_content {
   font-size: 14px;
   color: #666;
   font-weight: 600;
+  font-style: italic;
 }
 
-.timing-box {
+.timing_box {
   border: 4px solid #8e8c91;
 }
 
-.timing-box .table > tbody > tr > td {
-  font-size: 13px;
+.timing_box .table_footer > tbody > tr > td {
+  font-size: 18px;
   background: #f9ecc6;
 }
 
-.center-block {
+.center_block {
  /* border:solid rgb(185, 34, 34); */
   display:flex;
   justify-content:space-evenly;
@@ -171,28 +175,25 @@ h2.widget-title {
   background: #f9ecc6;
 }
 
-/* 
-.col-md-0{
-  border:solid green;
-}
-.col-md-1{
-  border:solid green;
-}
 
-.col-md-2{
+/* .foot0{
+  border:solid green;
+}
+.foot1{
   border:solid green;
 }
 
-.col-md-3{
+.foot2{
   border:solid green;
-} 
+}
 
- .table{
-  background-color: #8e8c91;
-  border: #890f40;
-  padding:10px;
-} */
+.foot3{
+  border:solid green;
+}  */
+
 /* Footer Section Ends */
+
+
 /* Index HTML Styling Ends */
 
 
@@ -226,6 +227,13 @@ h2.widget-title {
   justify-content: space-evenly;
   background-color: silver;  
 }
+.bizPic {
+  /* margin: 1em; */
+  /* border-radius: 50%; */
+  height: 150px;
+  width: 250px;
+  border: solid white;
+}
 
 .MenuList {
   border-radius: 10px;
@@ -242,64 +250,214 @@ h2.widget-title {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
 }
-/* .a{
-   text-decoration: none;
-} */
-#menu_a:hover {
+.List_a_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_b_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_c_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_d_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_e_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_f_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_g_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_h_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_i_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_j_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_k_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.List_l_content {
+  display: none;
+  position: sticky;
+  background-color: #b3b7a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: #e01515;
+  padding:10px;
+}
+.menu_cat_title {
+  padding: 20px;
+  text-align: center; 
+  background-color:#eef0ec ;
+  color: #e01515;
+}
+
+  .menu_ul_title{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #b82020; */
+    justify-content: center;
+  }
+
+#menu_a:hover  + .List_a_content {
+  display: block;
   color: white;
   background-color: goldenrod;
 }
-#menu_b:hover {
-  color: peru;
-  background-color:rgb(40, 112, 78);
-}
-#menu_c:hover {
-  background-color: goldenrod;
-}
-#menu_d:hover {
+
+#menu_b:hover  + .List_b_content {
+  display: block;
   color: white;
   background-color:rgb(40, 112, 78);
 }
-#menu_e:hover {
-  color: white;
-  background-color: purple;
-}
-#menu_f:hover {
+#menu_c:hover  + .List_c_content {
+  display: block;
   color: white;
   background-color:rgb(40, 112, 78);
 }
-#menu_g:hover {
+
+#menu_d:hover  + .List_d_content {
+  display: block;
   color: white;
   background-color:rgb(40, 112, 78);
 }
-#menu_h:hover {
-  color: white;
-  background-color: purple;
-}
-#menu_i:hover {
-  color: white;
-  background-color:rgb(40, 112, 78);
-}
-#menu_j:hover {
-  color: white;
-  background-color:rgb(40, 112, 78);
-}
-#menu_k:hover {
-  color: white;
-  background-color: goldenrod;
-}
-#menu_l:hover {
+
+#menu_e:hover  + .List_e_content {
+  display: block;
   color: white;
   background-color: purple;
 }
 
-.bizPic {
-  /* margin: 1em; */
-  /* border-radius: 50%; */
-  height: 150px;
-  width: 250px;
-  border: solid white;
+#menu_f:hover  + .List_f_content {
+  display: block;
+  color: white;
+  background-color:purple;
 }
+
+#menu_g:hover  + .List_g_content {
+  display: block;
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+
+#menu_h:hover  + .List_h_content {
+  display: block;
+  color: white;
+  background-color: purple;
+}
+
+#menu_i:hover  + .List_i_content {
+  display: block;
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+
+#menu_j:hover  + .List_j_content {
+  display: block;
+  color: white;
+  background-color:rgb(40, 112, 78);
+}
+
+#menu_k:hover  + .List_k_content {
+  display: block;
+  color: white;
+  background-color: goldenrod;
+}
+#menu_l:hover  + .List_l_content {
+  display: block;
+  color: white;
+  background-color: purple;
+}
+
+
+/* Menu HTML Styling Ends */
 
 
 /* Gallery HTML STyling Starts */
@@ -333,33 +491,6 @@ h2.widget-title {
   box-shadow: 10px 10px;
   background-color: #000000;
 }
-
-
-
-/* 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center; */
-
 
 /* Gallery HTML STyling Ends */
 

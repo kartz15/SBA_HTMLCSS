@@ -7,14 +7,14 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
      <!-- 1. CDN -->
      <link
      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
      rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-     crossorigin="anonymous"
-   />
+     crossorigin="anonymous" />
+  
   </head>
   <body> 
     <!-- My Restaurant Main Page --> 
@@ -22,7 +22,7 @@
      <div class="Section1"> 
           <div class="top-bar">
                 <div class="logo"> <a href="#">Master Chef Indian Cuisine</a> </div>
-                <div>2400 Hall Rd <br>Troy, MI 48004<br><a href="https://maps.app.goo.gl/EibnmLHF3xjUzrq1A" style="color:#fff; text-decoration:underline" target="_blank">Get Directions</a></div>
+                <div>2400 Hall Rd <br>Troy, MI 48004<br><a class="Link_text" href="https://maps.app.goo.gl/EibnmLHF3xjUzrq1A"  target="_blank">Get Directions</a></div>
                 <div>CALL<br>248-826-9001<br></div>
                 <div><a href="https://www.facebook.com/masterchef" target="_blank"><img  id="face" src="https://gifdb.com/images/high/facebook-logo-cube-sticker-1nikoajbgrtw87ar.gif" height="50" width="50" alt="Follow US on Facebook"/></a></div>
           </div>
@@ -46,127 +46,300 @@
 
      <!-- Menu List  -->
     <div class="MenuContainer">
-            <a href="" ><div class="MenuList" id="menu_a">
+            <div class="MenuList" id="menu_a">
                 <p class="title"> NON VEG APPETIZERS  </p>
                 <img src="https://www.pringleapi.com/DigitalMenu/Category/47872.jpg" alt="Google" class="bizPic">
-            </div></a>
+            </div>
+
+            <div class="List_a_content">       
+                <h2 class="menu_cat_title">NON VEG APPETIZERS</h2>
+                <ul class="menu_ul_title">  
+                  <li>Egg Bonda <span class="menu_price">$9.99</span></li>
+                  <li>Omlette <span class="menu_price">$8.99</span></li>
+                  <li>Kothu Parotta - Egg <span class="menu_price">$13.99</span></li>
+                  <li>Chicken 65 - Andhra <span class="menu_price">$12.99</span></li>
+                  <li>Chicken 65 - Hyderabad <span class="menu_price">$13.99</span></li>
+                  <li>Chicken Lollipop - Dry<span class="menu_price">$14.99</span></li>
+                </ul>
+              </div>
             <!-- Menu A  -->
 
-            <a href=""><div class="MenuList" id="menu_b">
+            <div class="MenuList" id="menu_b">
                 <p class="title"> VEG APPETIZERS </p>
                 <img src="https://www.pringleapi.com/DigitalMenu/Category/47873.jpg" alt="Facebook" class="bizPic">
-            </div></a>
+            </div>
+
+            <div class="List_b_content">       
+              <h2 class="menu_cat_title">VEG APPETIZERS</h2>
+              <ul class="menu_ul_title">
+                <li>Samosa <span class="menu_price">$5.99</span></li>
+                <li>Samosa Chat <span class="menu_price">$10.99</span></li>
+                <li>Chili Paneer <span class="menu_price">$12.99</span></li>
+                <li>Curry Leaf Paneer <span class="menu_price">$12.99</span></li>
+                <li>Kothimeera Paneer <span class="menu_price">$12.99</span></li>
+              </ul>
+            </div>
             <!-- Menu B -->
 
-            <a href=""><div class="MenuList" id="menu_c">
+            <div class="MenuList" id="menu_c">
                 <p class="title"> NON VEG MAIN COURSE </p>
                 <img src="https://www.pringleapi.com/DigitalMenu/Category/47869.jpg" alt="Pintrest" class="bizPic">
-            </div></a>
+            </div>
+
+            <div class="List_c_content">       
+              <h2 class="menu_cat_title">NON VEG MAIN COURSE</h2>
+              <ul class="menu_ul_title">
+                    <li>Egg Masala <span class="menu-price">$12.99</span></li>
+                    <li>Egg Burji <span class="menu-price">$12.99</span></li>
+                    <li>Chicken Kurry <span class="menu-price">$14.99</span></li>
+                    <li>(Bone In OR Boneless)</li>
+                    <li>Chicken Korma <span class="menu-price">$14.99</span></li>
+                    <li>Chicken Vindaloo <span class="menu-price">$14.99</span></li>
+                    <li>Chicken Methi <span class="menu-price">$14.99</span></li>
+                    <li>Chicken Chettinad <span class="menu-price">$14.99</span></li>
+                    <li>(Bone In OR Boneless)</li>
+                    <li>Butter Chicken <span class="menu-price">$14.99</span></li>
+                    <li>Chicken Tikka Masala <span class="menu-price">$14.99</span></li>
+                    <li>Pepper Chicken Curry <span class="menu-price">$14.99</span></li>
+              </ul>
+            </div>
             <!-- Menu C  -->
 
-            <a href=""><div class="MenuList" id="menu_d">
+            <div class="MenuList" id="menu_d">
               <p class="title"> VEG MAIN COURSE </p>
               <img src="https://www.pringleapi.com/DigitalMenu/Category/47868.jpg" alt="Pintrest" class="bizPic">
-          </div></a>
+          </div>
+
+          <div class="List_d_content">       
+            <h2 class="menu_cat_title">VEG MAIN COURSE</h2>
+            <ul class="menu_ul_title">
+                <li>Dal Tadka <span class="menu-price">$9.99</span></li>
+                <li>Chana Masala <span class="menu-price">$9.99</span></li>
+                <li>Aloo Gobi <span class="menu-price">$9.99</span></li>
+                <li>Bhindi Masala <span class="menu-price">$10.99</span></li>
+                <li>Baingan Masala <span class="menu-price">$10.99</span></li>
+                <li>Navratan Korma <span class="menu-price">$12.99</span></li>
+                <li>Veg Chettinad <span class="menu-price">$11.99</span></li>
+                <li>Nilgiri Veg Curry <span class="menu-price">$11.99</span></li>
+            </ul>
+          </div>
           <!-- Menu D  -->
 
-            <a href=""><div class="MenuList" id="menu_e">
+            <div class="MenuList" id="menu_e">
                 <p class="title">BIRYANI, FRIED RICE & MORE</p>
                 <img src="https://www.pringleapi.com/DigitalMenu/Category/47880.jpg" alt="Medium" class="bizPic">
-            </div></a>
+            </div>
+
+            <div class="List_e_content">       
+              <h2 class="menu_cat_title">BIRYANI, FRIED RICE & MORE</h2>
+              <ul class="menu_ul_title">
+                <li>Egg Biryani <span class="menu-price">$12.99</span></li>
+                    <li>Special Egg Biryani <span class="menu-price">$13.99</span></li>
+                    <li>Labbipet Egg Biryani <span class="menu-price">$13.99</span></li>
+                    <li>Egg Fry Biryani <span class="menu-price">$13.99</span></li>					
+                    <li>Gongura Egg Biryani <span class="menu-price">$13.99</span></li>
+                    <li>Vijayawada Gangur Egg Biryani <span class="menu-price">$13.99</span></li>
+                    <li>Chicken Dum Biryani <span class="menu-price">$13.99</span></li>
+                    <li>Chicken Dum Biryani Family Pack<span class="menu-price">$39.99</span></li>
+                    <li>Gongura Chicken Biryani - Bone In <span class="menu-price">$14.99</span></li>
+                    <li>Special Chicken Biryani <span class="menu-price">$15.99</span></li>
+                    <li>Labbipet Leg Joint Biryani <span class="menu-price">$14.99</span></li>
+					          <li>Kurrys Chicken Fry Piece Biryani <span class="menu-price">$14.99</span></li>
+					          <li>Nilgiri Chicken Biryani <span class="menu-price">$14.99</span></li>
+                    <li>Boneless Chicken Biryani <span class="menu-price">$15.99</span></li>
+                    <li>Vijayawada Gangur Chicken Biryani <span class="menu-price">$15.99</span></li>
+              </ul>
+            </div>
             <!-- Menu E  -->
 
-            <a href=""><div class="MenuList" id="menu_f">
+            <div class="MenuList" id="menu_f">
               <p class="title">DOSA</p>
               <img src="https://www.pringleapi.com/DigitalMenu/Category/47870.jpg" alt="Medium" class="bizPic">
-            </div></a>
+            </div>
+
+            <div class="List_f_content">       
+              <h2 class="menu_cat_title">DOSA</h2>
+              <ul class="menu_ul_title">
+                <li>Kids Dosa <span class="menu-price">$8.99</span></li>
+                <li>Plain Dosa <span class="menu-price">$9.99</span></li>
+                <li>Masala Dosa <span class="menu-price">$10.99</span></li>
+                <li>Mysore Masala Dosa <span class="menu-price">$11.99</span></li>
+                <li>Karam Dosa <span class="menu-price">$11.99</span></li>
+                <li>Egg Dosa <span class="menu-price">$11.99</span></li>
+                <li>Chef Special Chicken Dosa <span class="menu-price">$15.99</span></li>
+                <li>Chef Special Lamb Dosa <span class="menu-price">$16.99</span></li>
+              </ul>
+            </div>
             <!-- Menu F  -->
 
-            <a href=""><div class="MenuList" id="menu_g">
+            <div class="MenuList" id="menu_g">
             <p class="title">DESSERTS</p>
             <img src="https://www.pringleapi.com/DigitalMenu/Category/47879.jpeg" alt="Medium" class="bizPic">
-          </div></a> 
+          </div>
+
+          <div class="List_g_content">       
+            <h2 class="menu_cat_title">DESSERTS</h2>
+            <ul class="menu_ul_title">
+              <li>Gulab Jamun <span class="menu-price">$5.99</span></li>
+              <li>Rasmalai <span class="menu-price">$5.99</span></li>
+            </ul>
+          </div>
           <!-- Menu G  -->
 
-          <a href=""><div class="MenuList" id="menu_h">
+          <div class="MenuList" id="menu_h">
             <p class="title">SOUP</p>
             <img src="https://www.pringleapi.com/DigitalMenu/Category/47877.jpg" alt="Medium" class="bizPic">
-          </div></a> 
+          </div>
+
+          <div class="List_h_content">       
+            <h2 class="menu_cat_title">SOUP</h2>
+            <ul class="menu_ul_title">
+              <li>Veg Machurian Soup <span class="menu_price">$5.99</span></li>
+              <li>Chicken Soup <span class="menu_price">$10.99</span></li>
+              <li>Musroom Soup <span class="menu_price">$12.99</span></li>
+            </ul>
+          </div>
           <!-- Menu H  -->
 
-          <a href=""><div class="MenuList" id="menu_i">
+          <div class="MenuList" id="menu_i">
             <p class="title">CHAATS</p>
             <img src="https://www.pringleapi.com/DigitalMenu/Category/47876.jpg" alt="Medium" class="bizPic">
-          </div></a> 
+          </div>
+
+          <div class="List_i_content">       
+            <h2 class="menu_cat_title">CHAATS</h2>
+            <ul class="menu_ul_title">
+              <li>Chenna Chat <span class="menu_price">$5.99</span></li>
+              <li>Samosa Chat <span class="menu_price">$10.99</span></li>
+              <li>Pani Poori <span class="menu_price">$12.99</span></li>
+              <li>Bhel Puri <span class="menu_price">$12.99</span></li>
+              <li>Vada Pav<span class="menu_price">$12.99</span></li>
+            </ul>
+          </div>
           <!-- Menu I  -->
 
-          <a href=""><div class="MenuList" id="menu_j">
+          <div class="MenuList" id="menu_j">
             <p class="title">BEVERAGES</p>
             <img src="https://www.pringleapi.com/DigitalMenu/Category/47866.jpg" alt="Medium" class="bizPic">
-          </div></a> 
+          </div>
+
+          <div class="List_j_content">       
+            <h2 class="menu_cat_title">BEVERAGES</h2>
+            <ul class="menu_ul_title">
+              <li>Bottled Water <span class="menu-price">$0.99</span></li>
+              <li>Soft Drink <span class="menu-price">$1.99</span></li>
+              <li>(Coke OR Diet Coke OR Sprite)</li>
+              <li>Thums Up <span class="menu-price">$1.99</span></li>
+              <li>Mango Lassi <span class="menu-price">$2.99</span></li>
+              <li>Chikoo Shake <span class="menu-price">$2.99</span></li>
+              <li>Rose Milk <span class="menu-price">$2.99</span></li>	
+            </ul>
+          </div>
           <!-- Menu J  -->
 
-          <a href=""><div class="MenuList" id="menu_k">
+          <div class="MenuList" id="menu_k">
             <p class="title">TANDOOR SPECIALS</p>
             <img src="https://www.pringleapi.com/DigitalMenu/Category/47874.jpg" alt="Medium" class="bizPic">
-          </div></a> 
+          </div>
+
+          <div class="List_k_content">       
+            <h2 class="menu_cat_title">TANDOOR SPECIALS</h2>
+            <ul class="menu_ul_title">
+              <li>Tandoori Chicken <span class="menu-price">$13.99</span></li>
+              <li>Gongura Tandoori Chicken <span class="menu-price">$14.99</span></li>
+              <li>Chicken Tikka Kabab <span class="menu-price">$16.99</span></li>
+              <li>Tandoori Shrimp <span class="menu-price">$18.99</span></li>
+              <li>Tandoori Pomfret <span class="menu-price">$19.99</span></li>
+              <li>Mix Grill <span class="menu-price">$19.99</span></li>
+            </ul>
+          </div>
           <!-- Menu K -->
 
-          <a href=""><div class="MenuList" id="menu_l">
+          <div class="MenuList" id="menu_l">
             <p class="title">BREADS</p>
             <img src="https://www.pringleapi.com/DigitalMenu/Category/47867.jpg" alt="Medium" class="bizPic">
-          </div></a> 
-          <!-- Menu K -->
+          </div>
+
+          <div class="List_l_content">       
+            <h2 class="menu_cat_title">BREADS</h2>
+            <ul class="menu_ul_title">
+              <li>Plain Naan <span class="menu-price">$1.99</span></li>
+                    <li>Butter Naan <span class="menu-price">$2.99</span></li>
+                    <li>Garlic Naan <span class="menu-price">$2.99</span></li>
+                    <li>Kashmiri Naan <span class="menu-price">$4.99</span></li>
+                    <li>Onion Kulcha <span class="menu-price">$2.99</span></li>
+                    <li>Paneer Kulcha <span class="menu-price">$4.99</span></li>
+                    <li>Bullet Naan <span class="menu-price">$2.99</span></li>
+                    <li>Cheese Naan <span class="menu-price">$4.99</span></li>
+                    <li>Tandoori Roti <span class="menu-price">$2.99</span></li>
+            </ul>
+          </div>
+          <!-- Menu L -->
     </div>
   </div>
-
   <!-- MENU SECTION ENDS -->
 
-  <!--Footer section Starts-->
-  <div class="center-block">
-    <div class="col-md-0">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94012.11261300294!2d-83.23045000750983!3d42.579100886390876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824c40a318bcc13%3A0xb44b00c67e9177a7!2sTroy%2C%20MI!5e0!3m2!1sen!2sus!4v1721570123367!5m2!1sen!2sus" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="col-md-1">
-      <h3 class="widget-title">Restaurant</h3>
-      <p class="widget-content">2400 Hall Rd<br> Troy, MI 48004</p>
-      <h3 class="widget-title">Banquet</h3>
-      <p class="widget-content">2401 Hall Rd<br> Troy, MI 48004</p>
-    </div>
-    <div class="col-md-2">
-          <div class="timing-box">
-          <table class="table">
-          <tbody>
-              <tr>
-                <td><b>Mon - Thu</b></td>
-                <td><b>11:30am - 02:30pm<br>05:30pm - 10:00pm</b></td>
-              </tr>
-              <tr>
-                <td><b>Fri & Sat</b></td>
-                <td><b>11:30am - 02:30pm<br>05:30pm - 11:00pm</b></td>
-              </tr>
-              <tr>
-                <td><b>Sun</b></td>
-                <td><b>11:30am - 02:30pm<br>05:30pm - 09:30pm</b></td>
-              </tr>
-        </tbody>
-          </table>
+  <!-- Menu List DropList Starts-->
+  <!-- <div class="menuitems">
+         <div class="List1">
+          <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="100" height="50"> 
+          <div class="List1_content">
+              <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="500" height="300">
+              <div class="desc">Beautiful Cinque Terre</div>
           </div>
-    </div>
-        <div class="col-md-3">
-          <h5 class="widget-title">CALL or TEXT</h5>
-          <a href="tel:2488262014"><h2 class="widget-title">248-826-9001</h2></a>
-          <h5><a href="https://www.facebook.com/Masterchef/" target="_blank"><i class="Fb"></i> /Masterchef Facebook</a></h5>
-          <h5><a href="https://www.instagram.com/masterchef" target="_blank"><i class="Ig"></i> /Masterchef Instagram</a></h5>
+        </div> 
+   </div>  -->
+
+  <!-- Menu List DropList Ends-->
+
+
+  
+ <!--Footer section Starts-->
+ <div class="center_block">
+  <div class="foot1">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94012.11261300294!2d-83.23045000750983!3d42.579100886390876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824c40a318bcc13%3A0xb44b00c67e9177a7!2sTroy%2C%20MI!5e0!3m2!1sen!2sus!4v1721570123367!5m2!1sen!2sus" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="foot0">
+    <h3 class="footer_title">Restaurant</h3>
+    <p class="footer_content">2400 Hall Rd<br> Troy, MI 48004</p>
+    <h3 class="footer_title">Banquet</h3>
+    <p class="footer_content">2401 Hall Rd<br> Troy, MI 48004</p>
+  </div>
+  <div class="foot2">
+        <div class="timing_box">
+        <table class="table_footer">
+        <tbody>
+            <tr>
+              <td><b>Mon - Thu</b></td>
+              <td><b>11:30am - 02:30pm<br>05:30pm - 10:00pm</b></td>
+            </tr>
+            <tr>
+              <td><b>Fri & Sat</b></td>
+              <td><b>11:30am - 02:30pm<br>05:30pm - 11:00pm</b></td>
+            </tr>
+            <tr>
+              <td><b>Sun</b></td>
+              <td><b>11:30am - 02:30pm<br>05:30pm - 09:30pm</b></td>
+            </tr>
+      </tbody>
+        </table>
         </div>
-   </div>
-    <!--Footer section Ends-->
+  </div>
+      <div class="foot3">
+        <h3 class="footer_title">CALL or TEXT</h3>
+        <a class="Link_text" href="tel:2488262014"><h3 class="footer_title">248-826-9001</h3></a>
+        <h5><a class="Link_text" href="https://www.facebook.com/Masterchef/" target="_blank"><i class="Fb"></i> /Masterchef Facebook</a></h5>
+        <h5><a class="Link_text" href="https://www.instagram.com/masterchef" target="_blank"><i class="Ig"></i> /Masterchef Instagram</a></h5>
+      </div>
+ </div>
+  <!--Footer section Ends-->
 
 
      <!-- Allows us to use bootstrapJavascript functionality --> 
     <script src="app.js" async defer></script>
      <script
-       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous"></script>
+       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous">
+      </script>
    
      </body>
  </html>
