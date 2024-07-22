@@ -4,7 +4,7 @@
     /* border :solid rgb(189, 27, 27); */
     /* background-color:#ed79b9; */
     background: url(https://www.locandaottoemezzo.org.uk/wp-content/uploads/2014/05/screen-shot-2014-10-19-at-15.34.51.png) 0 0 no-repeat;
-    height:300px;
+    height:250px;
     background-size: cover;
     /* background-position: 10% 70%; */
     background-position: center bottom;
@@ -19,13 +19,14 @@
     justify-content: space-around;
     justify-items: center;
     z-index:-.5;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .Link_text{
   text-decoration: none;
   color: #e01515;
   text-transform: uppercase;
+  font-size:small;
 }
 
 .logo {
@@ -35,21 +36,21 @@
     height: 100px;
     /* padding: 20px; */
     text-indent: -999999px;
-    background: url(https://i.pinimg.com/originals/2e/1b/94/2e1b942a8f3b1de65fbaf96a1105824d.jpg) 0 0 no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-TGi2iMQyXx8xLtXZjnSDjU9cMpKTMrDq1g&s) 0 0 no-repeat;
     background-size: 100% 100%;
     /* border:solid green; */
     border-radius: 90%;
     justify-content: center;
     transition: width 1s, height 2s, transform 2s;
     /* transition-timing-function: linear; */
-    transform: rotateY(70deg);
+    transform: rotateY(60deg);
     transform-style: preserve-3d;
     transform-origin: 20% 40%;
     position: relative;
     /* z-index: -1; */
 }
   .logo:hover {
-    width: 500px;
+    width: 300px;
   }
 
   .NavBar {
@@ -95,10 +96,11 @@
 
 li a {
   display: block;
-  color: rgb(193, 30, 30);
+  color:red;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 16px;
   text-decoration: none;
+  font-style: italic;
 }
 
 /*Section1 Styling Ends- Common For All the HTML Pages*/
@@ -108,7 +110,7 @@ li a {
 /* Carousel Image Section Starts */
 .carousel-item{
   width:100%;
-  height:70vh;
+  height:40vh;
   /* border:solid rgb(174, 43, 43); */
   margin-top: .2px;
   padding:10x;
@@ -123,14 +125,14 @@ li a {
 }
 .aboutTitle{
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-style: italic;
   font-weight: 100;
   color: aliceblue;
   font-family:'Spirax', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .aboutText{
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 100;
   word-wrap: wrap;
@@ -143,7 +145,7 @@ li a {
 
 /* Footer Section starts */
 .footer_title {
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #666;
   text-decoration: none;
@@ -151,7 +153,7 @@ li a {
 }
 
 .footer_content {
-  font-size: 14px;
+  font-size: 12px;
   color: #666;
   font-weight: 600;
   font-style: italic;
@@ -162,7 +164,7 @@ li a {
 }
 
 .timing_box .table_footer > tbody > tr > td {
-  font-size: 18px;
+  font-size: 12px;
   background: #f9ecc6;
 }
 
@@ -211,7 +213,7 @@ li a {
 .menutitle{
   border: solid #000000;
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 100;
   color: rgb(235, 31, 4);
@@ -252,7 +254,7 @@ li a {
 }
 .List_a_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -262,7 +264,7 @@ li a {
 }
 .List_b_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -272,7 +274,7 @@ li a {
 }
 .List_c_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -282,7 +284,7 @@ li a {
 }
 .List_d_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -292,7 +294,7 @@ li a {
 }
 .List_e_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -302,7 +304,7 @@ li a {
 }
 .List_f_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -312,7 +314,7 @@ li a {
 }
 .List_g_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -322,7 +324,7 @@ li a {
 }
 .List_h_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -330,9 +332,9 @@ li a {
   border: #e01515;
   padding:10px;
 }
-.List_i_content {
+/* .List_i_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -342,7 +344,7 @@ li a {
 }
 .List_j_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -352,7 +354,7 @@ li a {
 }
 .List_k_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -362,14 +364,14 @@ li a {
 }
 .List_l_content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #b3b7a7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border: #e01515;
   padding:10px;
-}
+} */
 .menu_cat_title {
   padding: 20px;
   text-align: center; 
@@ -432,7 +434,7 @@ li a {
   color: white;
   background-color: purple;
 }
-
+/*
 #menu_i:hover  + .List_i_content {
   display: block;
   color: white;
@@ -454,7 +456,7 @@ li a {
   display: block;
   color: white;
   background-color: purple;
-}
+} */
 
 
 /* Menu HTML Styling Ends */
@@ -481,8 +483,8 @@ li a {
 .GalPic {
   margin: 1em; 
   /* border-radius: 50%; */
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border: solid white;
   transition: 1s;
 }
